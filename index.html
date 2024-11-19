@@ -10,6 +10,8 @@
 
 <body>
 
+    <!-- Header -->
+
     <header>
         <img src="./images/Logo.png">
         <h1>Toboolist</h1>
@@ -18,82 +20,92 @@
     <main>
         <div id="main-container">
 
+            <!-- Top Buttons -->
+            <!-- I bottoni sono stati racchiusi in un div per non far si che il margin si applichi
+            a possibili bottoni aggiuntivi -->
+
             <div id="top-buttons">
-                <button>Add Task</button>
-                <button>Add Section</button>
+                <button class="btn-default blue">Add Task</button>
+                <button class="btn-default">Add Section</button>
             </div>
+
+            <!-- New Task Section -->
 
             <section>
                 <h3>
-                    <span> &#9660; </span>
+                    <span>&#9660;</span>
                     New Task
                 </h3>
 
-                <div>
-                    <input type="checkbox" id="new-task-1" title="Select to check">
-                    <label for="new-task-1">Quarterly Newsletter</label>
-                    <span>Editorial</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Quarterly Newsletter</label>
+                    <span class="box-tag blue">Editorial</span>
                 </div>
             </section>
 
+            <!-- Today Section -->
+
             <section>
                 <h3>
-                    <span> &#9660; </span>
+                    <span>&#9660;</span>
                     Today
                 </h3>
 
-                <div>
-                    <input type="checkbox" id="today-task-1" title="Select to check">
-                    <label for="today-task-1">Recruiting blog post</label>
-                    <span>Editorial</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label">Recruiting blog post</label>
+                    <span class="box-tag blue">Editorial</span>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="today-task-2" title="Select to check">
-                    <label for="today-task-2">Mobile app launch</label>
-                    <span>Q1 Goals</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Mobile app launch</label>
+                    <span class="box-tag purple">Q1 Goals</span>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="today-task-3" title="Select to check">
-                    <label for="today-task-3">Interview John H.</label>
-                    <span>Recruiting</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Interview John H.</label>
+                    <span class="box-tag green">Recruiting</span>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="today-task-4" title="Select to check">
-                    <label for="today-task-4">Summit update to mobile storefronts</label>
-                    <span>Mobile</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Summit update to mobile storefronts</label>
+                    <span class="box-tag orange">Mobile</span>
                 </div>
             </section>
 
+            <!-- Upcoming Section -->
+
             <section>
                 <h3>
-                    <span> &#9660; </span>
+                    <span>&#9660;</span>
                     Upcoming
                 </h3>
 
-                <div>
-                    <input type="checkbox" id="up-task-1" title="Select to check">
-                    <label for="up-task-1">Schedule meeting with Alex</label>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Schedule meeting with Alex</label>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="up-task-2" title="Select to check">
-                    <label for="up-task-2">Homepage refresh</label>
-                    <span>Website</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Homepage refresh</label>
+                    <span class="box-tag rose">Website</span>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="up-task-3" title="Select to check">
-                    <label for="up-task-3">Onboard new Sales team members</label>
-                    <span>Sales</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Onboard new Sales team members</label>
+                    <span class="box-tag lime">Sales</span>
                 </div>
 
-                <div>
-                    <input type="checkbox" id="up-task-4" title="Select to check">
-                    <label for="up-task-4">Review editorial calendar</label>
-                    <span>Editorial</span>
+                <div class="check-default">
+                    <input type="checkbox" title="Select to check">
+                    <label>Review editorial calendar</label>
+                    <span class="box-tag blue">Editorial</span>
                 </div>
             </section>
 
