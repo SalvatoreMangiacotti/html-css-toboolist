@@ -1,12 +1,45 @@
 /* Resets */
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f6f8fa;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+header h1 {
+    display: inline;
+}
+
+header h1,
+header img {
+    vertical-align: middle;
+}
+
+/* Main Container */
+
+#main-container {
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+/* Sections */
+
+#top-buttons ,section {
+    margin-bottom: 30px;
 }
