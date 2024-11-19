@@ -9,7 +9,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f6f8fa;
-    line-height: 1.5;
 }
 
 /* Header */
@@ -57,9 +56,10 @@ section {
     margin-bottom: 30px;
 }
 
-/*Stile specifico per il simbolo arrow*/
+/*Arrow down*/
+
 section span {
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
 }
 
@@ -69,13 +69,11 @@ section h3 {
 
 /* Checkboxes */
 
-.check-default {
+.checkbox-container {
     margin-bottom: 20px;
 }
 
-/* Tags */
-
-.box-tag {
+.checkbox-container span {
     border: 1px solid #cccccc;
     color: white;
     border-radius: 15px;
@@ -83,29 +81,29 @@ section h3 {
     padding: 5px 10px;
 }
 
-/* Color Classes */
+/* Background Colors */
 
 .blue {
     background-color: #44aaf0;
     color: white;
 }
 
-.purple {
+#purple {
     background-color: #9970e0;
 }
 
-.green {
+#green {
     background-color: #68c2aa;
 }
 
-.lime {
+#lime {
     background-color: #acc52b;
 }
 
-.rose {
+#rose {
     background-color: #db5096;
 }
 
-.orange {
+#orange {
     background-color: #eea12e;
 }
