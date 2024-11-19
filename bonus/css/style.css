@@ -1,0 +1,142 @@
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f8fa;
+
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+header h1 {
+    display: inline;
+}
+
+header h1,
+header img {
+    vertical-align: middle;
+}
+
+/* Main Container */
+
+#main-container {
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+/* Buttons */
+
+.btn-default {
+    border: 2px solid #f1f1f1;
+    color: #8f8f8f;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sections */
+
+#top-buttons,
+section {
+    margin-bottom: 30px;
+}
+
+/*Arrow down*/
+
+section span {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+section h3 {
+    margin-bottom: 10px;
+}
+
+/* Checkboxes */
+
+.checkbox-container {
+    margin-bottom: 20px;
+}
+
+.checkbox-container span {
+    border: 1px solid #cccccc;
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+/* Custom Checkboxes */
+
+input[type="checkbox"] {
+    appearance: none;
+    position: relative;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"]::before {
+    content: "\2717";
+    position: absolute;
+    color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]:checked {
+    border-color: green;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "\2713";
+    color: green;
+}
+
+/* Background Colors */
+
+.blue {
+    background-color: #44aaf0;
+    color: white;
+}
+
+#purple {
+    background-color: #9970e0;
+}
+
+#green {
+    background-color: #68c2aa;
+}
+
+#lime {
+    background-color: #acc52b;
+}
+
+#rose {
+    background-color: #db5096;
+}
+
+#orange {
+    background-color: #eea12e;
+}
