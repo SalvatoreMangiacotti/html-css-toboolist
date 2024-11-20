@@ -83,10 +83,12 @@ section h3 {
 
 .green-check::before {
     border: 1px solid green;
+    color: green;
 }
 
 .red-check::before {
     border: 1px solid red;
+    color: red;
 }
 
 /* Checkboxes */
