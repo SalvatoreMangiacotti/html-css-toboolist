@@ -67,6 +67,28 @@ section h3 {
     margin-bottom: 10px;
 }
 
+/* Red check */
+
+.checkbox-container::before {
+    content: "\2713";
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.green-check::before {
+    border: 1px solid green;
+}
+
+.red-check::before {
+    border: 1px solid red;
+}
+
 /* Checkboxes */
 
 .checkbox-container {
